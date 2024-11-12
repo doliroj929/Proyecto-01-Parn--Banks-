@@ -1,0 +1,38 @@
+
+/* fondo del menu */
+header {
+    background: rgba(15, 114, 235, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+/*  estar alineada a la derecha de la página. */
+nav {
+    float: right;
+}
+
+
+/* Con overflow: hidden hacemos que todo contenido fuera del bloque del menú se corte y se invisibilice. */
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+/*Para la fuente y donde van a ir posicionada las letras */
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;}
+
+
+
+nav ul li a {
+    display: block; 
+    padding: 20px;  /*el ancho de la franja */
+    color: #fff;
+    text-decoration: none; /*el ancho de la franja */
+    }
+
+    nav ul li:hover {
+        background: #9092e4;
